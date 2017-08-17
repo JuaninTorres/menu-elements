@@ -1,0 +1,25 @@
+{
+  "name": "juanintorres/menu-elements",
+  "description": "Generador de elementos de un menú, ésto fue desarrollado a modo de ejercicio y por lo mismo no es un desarrollo muy acabado",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Juan Torres",
+      "email": "juanin.torres@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.4.27"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7.21",
+    "symfony/var-dumper": "^3.3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Juanintorres\\MenuElement\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
